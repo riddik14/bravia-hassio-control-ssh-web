@@ -1,0 +1,134 @@
+script:
+volumeup:
+alias: volumeup
+sequence:
+
+service: shell_command.volumeup
+volumedown:
+alias: volumedown
+sequence:
+service: shell_command.volumedown
+tvpower:
+alias: tvpower
+sequence:
+service: shell_command.tvpower
+tvpoweroff:
+alias: tvpoweroff
+sequence:
+service: shell_command.poweroff
+home:
+alias: home
+sequence:
+service: shell_command.home
+num1:
+alias: num1
+sequence:
+service: shell_command.num1
+num2:
+alias: num2
+sequence:
+service: shell_command.num2
+num3:
+alias: num3
+sequence:
+service: shell_command.num3
+num4:
+alias: num4
+sequence:
+service: shell_command.num4
+num5:
+alias: num5
+sequence:
+service: shell_command.num5
+num6:
+alias: num6
+sequence:
+service: shell_command.num6
+num7:
+alias: num7
+sequence:
+service: shell_command.num7
+num8:
+alias: num8
+sequence:
+service: shell_command.num8
+num9:
+alias: num9
+sequence:
+service: shell_command.num9
+num0:
+alias: num0
+sequence:
+service: shell_command.num0
+dvbt:
+alias: dvbt
+sequence:
+service: shell_command.tv2
+hdmi1:
+alias: hdmi1
+sequence:
+service: shell_command.hdmi1
+hdmi2:
+alias: hdmi2
+sequence:
+service: shell_command.hdmi2
+hdmi3:
+alias: hdmi3
+sequence:
+service: shell_command.hdmi3
+soundbar:
+alias: soundbar
+sequence:
+service: shell_command.soundbar
+channelup:
+alias: channelup
+sequence:
+service: shell_command.channelup
+channeldown:
+alias: channeldown
+sequence:
+service: shell_command.channeldown
+mute:
+alias: mute
+sequence:
+service: shell_command.mute
+exit:
+alias: exit
+sequence:
+service: shell_command.exit
+up:
+alias: up
+sequence:
+service: shell_command.up
+down:
+alias: down
+sequence:
+service: shell_command.down
+playpause:
+alias: play
+sequence:
+service: shell_command.play
+forward:
+alias: forward
+sequence:
+service: shell_command.forward
+confirm:
+alias: confirm
+sequence:
+service: shell_command.confirm
+return:
+alias: return
+sequence:
+service: shell_command.return
+rewind:
+alias: rewind
+sequence:
+service: shell_command.rewind
+left:
+alias: left
+sequence:
+service: shell_command.left
+right:
+alias: right
+sequence:
+service: shell_command.right
