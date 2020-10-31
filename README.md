@@ -7,4 +7,4 @@ _____________________________________________________________
 
 
 
-<img src="https://github.com/riddik14/hassio-package-consumi/blob/main/remote.png">
+<img src="https://github.com/riddik14/bravia-hassio-control-ssh-web/blob/main/remote.png">
