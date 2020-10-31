@@ -1,0 +1,202 @@
+cards:
+  - back:
+      entity_id: script.back
+      id: back
+      service: script.back
+      type: script
+    down:
+      entity_id: script.down
+      id: down
+      service: script.down
+      type: script
+    entity: media_player.tv_sony
+    forward:
+      entity_id: script.forward
+      id: forward
+      service: script.forward
+      type: script
+    home:
+      entity_id: script.exit
+      id: volumeup
+      service: script.exit
+      type: script
+    left:
+      entity_id: script.left
+      id: left
+      service: script.left
+      type: script
+    menu:
+      entity_id: script.home
+      id: home
+      service: script.home
+      type: script
+    name: tv sony
+    pauseplay:
+      entity_id: script.playpause
+      id: playpause
+      service: script.playpause
+      type: script
+    power:
+      entity_id: script.tvpower
+      id: tvpower
+      service: script.tvpower
+      type: script
+    reverse:
+      entity_id: script.rewind
+      id: rewind
+      service: script.rewind
+      type: script
+    right:
+      entity_id: script.right
+      id: right
+      service: script.right
+      type: script
+    select:
+      entity_id: script.confirm
+      id: confirm
+      service: script.confirm
+      type: script
+    theme: Backend-selected
+    tv: true
+    type: 'custom:firetv-card'
+    up:
+      entity_id: script.up
+      id: up
+      service: script.up
+      type: script
+    volume_down:
+      data: null
+      entity_id: script.volumedown
+      id: volumeup
+      service: script.volumedown
+      type: script
+    volume_mute:
+      entity_id: script.mute
+      id: mute
+      service: script.mute
+      type: script
+    volume_up:
+      data: null
+      entity_id: script.volumeup
+      id: volumeup
+      service: script.volumeup
+      type: script
+  - artwork: cover
+    entity: media_player.sony_bravia_tv
+    hide:
+      controls: true
+      volume: true
+    shortcuts:
+      buttons:
+        - data:
+            entity_id: script.volumeup
+          icon: 'mdi:volume-plus'
+          id: volumeup
+          service: script.volumeup
+          type: script
+        - data:
+            entity_id: script.volumedown
+          icon: 'mdi:volume-minus'
+          id: volumedown
+          service: script.volumedown
+          type: script
+        - data:
+            entity_id: script.num1
+          icon: 'mdi:numeric-1-box'
+          id: num1
+          service: script.num1
+          type: script
+        - data:
+            entity_id: script.num2
+          icon: 'mdi:numeric-2-box'
+          id: num2
+          service: script.num2
+          type: script
+        - data:
+            entity_id: script.num3
+          icon: 'mdi:numeric-3-box'
+          id: num3
+          service: script.num3
+          type: script
+        - data:
+            entity_id: script.num4
+          icon: 'mdi:numeric-4-box'
+          id: num4
+          service: script.num4
+          type: script channelup
+        - data:
+            entity_id: script.channelup
+          icon: 'mdi:plus'
+          id: channelup
+          service: script.channelup
+          type: script
+        - data:
+            entity_id: script.channeldown
+          icon: 'mdi:minus'
+          id: channeldown
+          service: script.channeldown
+          type: script
+        - data:
+            entity_id: script.num5
+          icon: 'mdi:numeric-5-box'
+          id: num5
+          service: script.num5
+          type: script
+        - data:
+            entity_id: script.num6
+          icon: 'mdi:numeric-6-box'
+          id: num6
+          service: script.num6
+          type: script
+        - data:
+            entity_id: script.num7
+          icon: 'mdi:numeric-7-box'
+          id: num7
+          service: script.num7
+          type: script
+        - data:
+            entity_id: script.num8
+          icon: 'mdi:numeric-8-box'
+          id: num8
+          service: script.num8
+          type: script
+        - data:
+            entity_id: script.mute
+          icon: 'mdi:volume-off'
+          id: mute
+          service: script.mute
+          type: script
+        - data:
+            entity_id: script.soundbar
+          icon: 'mdi:cast-audio'
+          id: soundbar
+          service: script.soundbar
+          type: script
+        - data:
+            entity_id: script.dvbt
+          icon: 'mdi:television-box'
+          id: dvbt
+          service: script.dvbt
+          type: script
+        - data:
+            entity_id: script.num9
+          icon: 'mdi:numeric-9-box'
+          id: num9
+          service: script.num9
+          type: script
+        - data:
+            entity_id: script.num0
+          icon: 'mdi:numeric-0-box'
+          id: num0
+          service: script.num0
+          type: script
+        - data:
+            entity_id: script.hdmi3
+          icon: 'mdi:youtube-tv'
+          id: hdmi3
+          service: script.hdmi3
+          type: script
+      columns: 6
+    source: icon
+    type: 'custom:mini-media-player'
+type: 'custom:vertical-stack-in-card'
