@@ -82,7 +82,7 @@ cards:
       service: script.volumeup
       type: script
   - artwork: cover
-    entity: media_player.sony_bravia_tv
+    entity: media_player.#####################################################################
     hide:
       controls: true
       volume: true
