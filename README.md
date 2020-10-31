@@ -7,4 +7,4 @@
 *copiare il file send_command.sh in /config*
 *aggiungere poi sotto ai rispettivi domini la configurazione contenuta in script.yaml e shell_command.yaml*
 
-nel testo lovelace-manual-card.txt aggiungere eventualmente la vostra entità mediaplaye per sapere le invo ecc nel punto indicato da mediaplayer.###########################################
+*nel testo lovelace-manual-card.txt aggiungere eventualmente la vostra entità media_player per sapere le info ecc della tv nel punto indicato da media_player.########################################### *
